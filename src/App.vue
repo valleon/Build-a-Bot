@@ -11,7 +11,10 @@
       </nav>
     </header>
     <main>
-      <RobotBuilder />
+<div class="robot-hello">
+  This is a Test
+</div>
+      <RobotBuilder />  
     </main>
   </div>
 </template>
@@ -32,8 +35,13 @@ export default {
 body{
   background: linear-gradient(to bottom, #555, #999);
   background-attachment: fixed;
-
 }
+.robot-hello {
+  color: red;
+}
+</style>
+
+<style scoped> 
 
 #app{
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
